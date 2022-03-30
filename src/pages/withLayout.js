@@ -11,8 +11,8 @@ function Layout(){
         <div>
         <nav>
                 <span className='nav-link'><Link to="/">Home</Link></span>
-                <span className='nav-link'><Link to="/">About</Link></span>
-                <span className='nav-link'><Link to="/">Blog</Link></span>
+                <span className='nav-link'><Link to="/about">About</Link></span>
+                <span className='nav-link'><Link to="/blog">Blog</Link></span>
         </nav>
         </div>
 

@@ -1,10 +1,10 @@
 import React from 'react'
 import withLayout from './withLayout'
 
-function Home() {
+function About() {
   return (
     <div>
-    <h1>Welcome to my Homepage</h1>
+    <h1>About me</h1>
     <div>
     <p>Mahama was born into a politically active family. His father,
     Emmanuel Adama Mahama, served as a member of Parliament as well as a regional commissioner in the
@@ -23,4 +23,4 @@ function Home() {
   )
 }
 
-export default withLayout(Home)
+export default withLayout(About)
